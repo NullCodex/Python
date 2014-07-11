@@ -42,6 +42,6 @@ def Email():
 	server = smtplib.SMTP('smtp.gmail.com:587')
 	server.ehlo()
 	server.starttls()
-	server.login("jamesonyu95@gmail.com", "#Netprohfx1%")
+	server.login("jamesonyu95@gmail.com", "********")
 	server.sendmail(fromAddress, toAddress, msg.as_string())
 	server.close()
